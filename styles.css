@@ -1,0 +1,140 @@
+
+body {
+	background-color: #1A1A1A;
+	font-family: 'Padauk', sans-serif;
+	max-height: 500px;
+}
+h1 {
+	font-size: 75pt;
+	font-family: 'Padauk', sans-serif;
+	margin: 0px;
+	height: 125px;
+}
+
+p {
+	color: #F2F2F2;
+	font-size: 12pt;
+	font-family: 'Padauk', sans-serif;
+	width: 50%;
+
+}
+.main {
+	color: #F2F2F2;
+	/*margin-left: 50px;*/
+	width: 100%;	
+}
+
+.hidden {
+	display: none;
+}
+
+#first, #second, #third {
+	width:100%;
+}
+
+.thumbs {
+	width: 175px;
+	height: 175px;
+	margin-right: 25px;
+	margin-top: 25px;
+	display: relative;
+	float: left;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #F2F2F2;
+	border-radius: 15px;
+  	position: relative;
+  	overflow: hidden;
+}
+
+.boxes {
+	display: relative;
+	float: left;
+	border-style: none;
+}
+
+.left{
+	width: 60%;
+	height: 100%;
+	float:left;
+	margin-left: 50px;
+	/*border:1px red solid;*/
+
+}
+.right{
+	height: 100%;
+	margin-left: 60%;
+	align-content: right;
+	display: block;
+	float: right;
+	position: absolute;
+	z-index: -2;
+}
+
+#prev1, #prev2, #prev3{
+	height:100%;	
+	opacity: 0.2;
+	z-index: -2;
+}
+#box2, #box3 {
+	max-width: 175px;
+	max-height: 175px;
+	align-content: center;
+	position: relative;
+	float: left;
+	vertical-align: middle;
+}
+
+#box1 {
+	max-width: 175px;
+	max-height: 175px;
+	align-content: center;
+	position: relative;
+	float: left;
+	margin: none;
+}
+
+#one {
+	z-index: -1;
+	top: -460px;
+	left: -30px;
+	font-size: 400px;
+	position: absolute;
+	opacity: 0.5;
+
+}
+
+.page1 {
+	background-color: #1A1A1A;
+	/*margin-left: 50px;*/
+	width: 100%;	
+}
+
+#project-one {
+	width: 100%;
+	height: 900px;
+	padding: 15px;
+
+}
+
+#project-two {
+	width: 100%;
+	height: 900px;
+	padding: 15px;
+}
+
+#project-three {
+	width: 100%;
+	height: 900px;
+	padding: 15px;
+}
+
+.page1-title {
+	color: #F2F2F2;
+	font-size: 75pt;
+	font-family: 'Padauk', sans-serif;
+	margin: 0px;
+	height: 125px;
+	line-height: 75pt;
+
+}
