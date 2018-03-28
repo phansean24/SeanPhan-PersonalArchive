@@ -58,6 +58,7 @@ p {
 	height: 100%;
 	float:left;
 	margin-left: 50px;
+	margin-top: 50px;
 	/*border:1px red solid;*/
 
 }
@@ -75,7 +76,7 @@ p {
 
 #prev1, #prev2, #prev3{
 	height:100%;	
-	opacity: 0.2;
+	opacity: 0.5;
 	z-index: -2;
 	animation: slide 60s linear infinite;
 }
